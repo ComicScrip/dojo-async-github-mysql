@@ -19,6 +19,7 @@ const delay = (seconds) =>
       });
       connectionOK = true;
     } catch (e) {
+      // console.error(e);
       await delay(1);
     }
   }

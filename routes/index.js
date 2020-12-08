@@ -1,5 +1,1 @@
-const contactRoutes = require('./contacts');
-
-module.exports = (app) => {
-  app.use('/contacts', contactRoutes);
-};
+module.exports = (app) => {}; // eslint-disable-line
